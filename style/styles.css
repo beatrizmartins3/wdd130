@@ -1,0 +1,36 @@
+img{
+    width: 30%;
+}
+
+main p{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    color:#000000;
+}
+
+h2{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+
+}
+
+footer p{
+    font-size: 20px;
+    margin: 20px auto;
+    color: #000000;
+}
+ h1{
+    text-align: center;
+    color: #ffffff;
+}
+
+
+
+body{
+    text-align: center;
+    background-color: #ffc0cb;
+}
+
