@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=RocknRoll+One&display=swap');
+
+.home-title{
+    color: #000000;
+    font-family:"RocknRoll One" ;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -7,10 +16,14 @@ nav a{
     text-align: center;
     color: #ffffff;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1,#hero-msg h4{
     text-align: center;
+}
+#hero-img{
+    width: 100%;
 }
 
 .button-box{
@@ -28,6 +41,10 @@ main section{
 
 body{
     background-color:#c9ada7 ;
+    font-family:Roboto, Helvetica, sans-serif ;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
 }
 
 header{
@@ -43,6 +60,13 @@ nav a:hover{
     background-color: #9a8c98;
     color:#22223b ;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 .book:hover,.join:hover{
@@ -52,6 +76,8 @@ nav a:hover{
 
 .msg{
     background-color: #4a4e69;
+    line-height: 1.5em;
+    padding: 35px;
     
 }
 
@@ -61,10 +87,14 @@ nav a:hover{
 
 .msg p{
     color: #ffffff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer{
     background-color: #4a4e69;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a{
@@ -79,9 +109,8 @@ footer a:hover{
 footer p a:hover{
     text-decoration: underline;
 }
-
-.home-title{
-    color: #000000;
+footer.social img{
+    padding-top: 15px;
 }
 
 h4{
@@ -94,8 +123,24 @@ h4{
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
-#hero-image{
-    width: 100%;
+h2{
+    margin: 0;
+}
+
+#logo_link{
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img{
+    border: 10px solid #22223b;
+}
+
+.mountains{
+    padding: 40px 80px;
 }

@@ -1,0 +1,15 @@
+footer{
+    background-color: dimgrey;
+}
+
+body{
+    margin: 0;
+}
+
+
+footer img{
+    width: 200px;
+    border: 4px ;
+    padding: 100px;
+}
+
