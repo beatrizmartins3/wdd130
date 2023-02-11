@@ -1,0 +1,33 @@
+.whole{
+    height: min-content;
+    width: max-content;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+.box1{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-start: 1;
+    grid-row-start: 3;
+    grid-column-end: 5;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.box2{
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-start: 7;
+    grid-row-start: 8;
+    grid-column-end: 10;
+    width: 500px;
+    height: 500px;
+    background-color: #808080;
+}
+
+.box2 p{
+    color: #ff0000;
+}
