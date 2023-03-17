@@ -2,32 +2,38 @@
 
 
 #content{
+    background-color: #427AA1;
     max-width: 1600px;
     margin: 0 auto;
 }
-nav a{
+nav a {
     text-align: center;
     color: #EBF2FA;
     text-decoration: none;
     padding: 35px;
-    }
+    
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
 
 
 .logo{
-    width:80px;
+    width:100px;
     
 }
 nav a:hover{
     background-color:#A5BE00 ;
-    color: #ffffff;
+    color: #EBF2FA;
 }
-#logo_link{
-    padding-top: 5px;
-    justify-self: center;
-    align-self: center;
-}
+
 header{
     background-color: #679436;
+    display:grid;
+    grid-template-columns: 150px auto;
+    
 }
 footer{
     background-color: #679436;
@@ -46,11 +52,8 @@ footer p a{
 footer p a:hover{
     background-color: #A5BE00;
 }
-main{
-    background-color: #427AA1;
-    max-width: 2600px;
-    margin: 0 auto;
-}
+
+
 h1{
     font-family: "Raleway";
     text-align: center;
