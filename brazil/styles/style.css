@@ -27,12 +27,14 @@ nav{
 nav a:hover{
     background-color:#A5BE00 ;
     color: #EBF2FA;
+    font-family: "Raleway";
 }
 
 header{
     background-color: #679436;
     display:grid;
     grid-template-columns: 150px auto;
+    font-family: "Raleway";
     
 }
 footer{
@@ -51,6 +53,7 @@ footer p a{
 }
 footer p a:hover{
     background-color: #A5BE00;
+    color: #EBF2FA;
 }
 
 
@@ -65,9 +68,16 @@ h1{
     margin-left: auto;
     margin-right: auto;
 }
+.hercules{
+    width: 700px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 .start{
     color: #EBF2FA;
     font-family: "Playfair Display";
+    padding: 30px;
 }
 
 a {
@@ -94,4 +104,27 @@ a:hover {
 .round {
     border-radius: 50%;
   }
-  
+
+/* style for page 2*/
+
+h3{
+    font-family: "Playfair Display";
+    color: #EBF2FA;
+    padding: 20px;
+}
+
+p{
+    font-family: "Raleway";
+    color:#EBF2FA;
+    padding: 20px;
+}
+
+.all_foods{
+    width: 500px;
+    padding: 20px;
+}
+
+.brig{
+    width: 400px;
+    padding: 20px;
+}
