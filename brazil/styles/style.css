@@ -185,44 +185,44 @@ input[type="submit"]:hover {
 
 
 
-@media screen and (max-width: 900px) {
-    #hero, .home-grid {
-        display: block;
-        height: auto;
+@media only screen and (max-width: 600px) {
+
+    /* adjust font sizes */
+    h1 {
+      font-size: 1.5rem;
     }
-    nav, footer {
-        flex-direction: column;
-    }
+  
     nav a {
-        display: block;
-        padding: 15px;
+      font-size: 0.8rem;
+      padding: 15px;
     }
-    #hero {
-        margin-top: 0;
+  
+    /* adjust image sizes */
+    .br-flag {
+      width: 80%;
     }
-    #hero-msg {
-        margin-top: 0;
-    }
-    #hero-msg h4 {
-        display: none;
-    }
-    .home-title {
-        font-size: 25px;
-        color: #6f7364;
-    }
-    .rivers-card, .camping-card, .rapids-card { 
-        margin: 50px auto;
-        width: 60%;
-    }
-    #background {
-        display: none;
-    }
-    .mountains, .msg {
+
+    .hercules {
         width: 80%;
-        display: block;
-        margin: 0 auto;
+      }
+    
+      /* adjust layout */
+      nav {
+        flex-direction: column;
+        text-align: center;
+      }
+    
+      nav a {
+        padding: 10px;
+      }
+    
+      footer {
+        flex-direction: column;
+        text-align: center;
+      }
+      
+      footer p {
+        margin-top: 20px;
+      }
+    
     }
-    footer {
-        margin-top: 25px;
-    }
-}
