@@ -14,6 +14,15 @@ nav a {
     
 }
 
+body {
+    display: block;
+    margin: 8px;
+}
+
+img{
+    max-width: 100%;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
@@ -129,6 +138,10 @@ p{
     width: 400px;
     padding: 20px;
 }
+
+html{
+    display: block;
+}
 /*css for page 3*/
 h4{
     font-family: "Playfair Display";
@@ -182,47 +195,37 @@ input[type="submit"]:hover {
 	background-color: #3e8e41;
 }
 
-
-
-
-@media only screen and (max-width: 600px) {
-
-    /* adjust font sizes */
-    h1 {
-      font-size: 1.5rem;
+@media screen and (max-width: 900px) {
+    /* Adjust header layout */
+    header {
+        grid-template-columns: 1fr;
+        text-align: center;
     }
-  
+    nav {
+        display: block;
+        margin: 0 auto;
+    }
     nav a {
-      font-size: 0.8rem;
-      padding: 15px;
-    }
-  
-    /* adjust image sizes */
-    .br-flag {
-      width: 80%;
-    }
-
-    .hercules {
-        width: 80%;
-      }
-    
-      /* adjust layout */
-      nav {
-        flex-direction: column;
-        text-align: center;
-      }
-    
-      nav a {
+        display: block;
         padding: 10px;
-      }
-    
-      footer {
-        flex-direction: column;
-        text-align: center;
-      }
-      
-      footer p {
-        margin-top: 20px;
-      }
-    
     }
+    .logo {
+        margin: 0 auto;
+    }
+    /* Adjust section layout */
+    .start {
+        padding: 10px;
+    }
+    /* Adjust footer layout */
+    footer {
+        flex-direction: column;
+        margin-top: 50px;
+    }
+    footer p {
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    footer p a {
+        display: block;
+    }
+}
