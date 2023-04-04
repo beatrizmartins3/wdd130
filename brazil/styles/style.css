@@ -17,6 +17,7 @@ nav a {
 body {
     display: block;
     margin: 8px;
+    font-size: 20px;
 }
 
 img{
@@ -228,7 +229,15 @@ input[type="submit"]:hover {
     footer p a {
         display: block;
     }
-    .all_foods .brig .spots .br-flag .hercules{
+    .all_foods .brig .spots {
+        margin: 50px auto;
+        width: 50%;
+    }
+    .br-flag{
+        margin: 50px auto;
+        width: 80%;
+    }
+    .hercules{
         margin: 50px auto;
         width: 80%;
     }
